@@ -7,7 +7,6 @@
 #include "assets/objects/object_link_child/object_link_child.h"
 #include "assets/objects/object_link_boy/object_link_boy.h"
 #include "assets/objects/object_boss01/object_boss01.h"
-#include "su_mtx.h"
 
 // make sure the sword can be replaced w/o an object reload
 RECOMP_CALLBACK(YAZMT_Z64_MODEL_REPLACER_MOD_NAME, ZModelReplacer_onReady)
