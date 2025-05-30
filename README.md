@@ -1,8 +1,10 @@
-# Majora's Mask: Recompiled Mod Template
+# Model Replacer Example for Majora's Mask: Recompiled
 
-This is an example mod for Majora's Mask: Recompiled that can be used as a template for creating mods. It has a basic build system, headers, sample code, and a mod config toml.
+This is an example mod for Majora's Mask: Recompiled that can be used as a reference for usage of the [Model Replacer](https://github.com/Neirn/Z64Recomp_ModelReplacer) mod for Majora's Mask: Recompiled.
 
-Example code for using the recompui API to build ingame UI can be found in the `ui-example` branch.
+See [swordswaps.c](https://github.com/Neirn/MMRecomp_ModelReplacer_example/blob/main/src/swordswaps.c) for the very basic implementation.
+
+This is a simple mod that lets the user swap which model is used for the Great Fairy Sword. It depends on the [Model Replacer](https://github.com/Neirn/Z64Recomp_ModelReplacer) and [Global Objects](https://github.com/Neirn/Z64Recomp_GlobalObjects) mods to function.
 
 ### Writing mods
 See [this document](https://hackmd.io/fMDiGEJ9TBSjomuZZOgzNg) for an explanation of the modding framework, including how to write function patches and perform interop between different mods.
