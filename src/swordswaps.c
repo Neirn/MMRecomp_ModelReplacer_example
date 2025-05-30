@@ -42,5 +42,7 @@ void updateSword_on_Player_Update(Actor *thisx, PlayState *play) {
         if (newSwordDL != NULL) {
             ZModelReplacer_setCustomDL(OBJECT_LINK_CHILD, gLinkHumanGreatFairysSwordDL, newSwordDL);
         }
+
+        gCurrentLongSword = longSword;
     }
 }
